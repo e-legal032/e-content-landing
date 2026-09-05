@@ -12,6 +12,19 @@ export const itemsData = [
       { label: "Descargar ePub", url: "/downloads/vestigios-incendio.epub" }
     ]
   },
+  {
+    id: "app-petcare",
+    title: "Pet Care Planner",
+    description: "Aplicación web progresiva (PWA) e independiente para la gestión, seguimiento de vacunación, turnos y organización diaria de tus mascotas. Podés usarla directamente en la web o agregarla a la pantalla de inicio de tu celular.",
+    cover: "/portada-petcare.png",
+    badge: "Web App",
+    category: "Herramientas",
+    type: "external",
+    externalUrl: "https://petcare-planner.netlify.app",
+    downloads: [
+      { label: "Probar e Instalar App", url: "https://petcare-planner.netlify.app", isExternal: true }
+    ]
+  },
   // Cuando hagas un nuevo e-book o material, solo agregás un bloque similar aquí:
   /*
   {
